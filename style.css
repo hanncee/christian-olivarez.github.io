@@ -1,0 +1,612 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat,Roboto, arial;
+}
+
+
+
+@media screen and (min-width: 320px){
+
+       
+       .navbar{
+        position: fixed;
+        width: 100%;
+        height: 40px;
+        background-color: #242424;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+      } 
+      
+      
+      .header{
+        color: white;
+        font-size: 20px;
+      }
+      
+      .header span{
+        color: #66fcf1;
+      }
+      
+      #Home{
+        width: 100%;
+        height: 100vh;
+        background-color: #1f2833;
+      }
+      
+      .main-container{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      
+      }
+      .container{
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      
+      .container .greetings{
+        font-size: 20px;
+        color: white;
+      }
+      
+      .container h1{
+        color: #66fcf1;
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      .description{
+        color: white;
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .description span{
+        color: #66fcf1;
+        font-size: 16px;
+      }
+      
+      .button-hire{
+        background-color: #66fcf1;
+        padding: 6px 10px;
+        color: black;
+        font-weight: bold;
+        border: none;
+        border-radius: 3px;
+      
+      }
+
+      .my-pic{
+        display: none;
+      }
+      
+      #About{
+        width: 100%;
+        height: 350px;
+        background-color: #242c36;
+      }
+      
+      .text-description{
+      margin-left: 10px;
+      margin-right: 10px;
+      }
+      
+      .text-description h1{
+        color: #66fcf1;
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+      
+      .text-description p{
+        color: white;
+        text-align: justify;
+        font-size: 13px;
+      }
+
+      .about-me-pic{
+        display: none;
+      }
+      
+      #Skills{
+        width: 100%;
+        height: 1100px;
+        background-color: #1f2833;
+      
+        
+      }
+      
+      .image{
+        width: 70px;
+      }
+      
+      .card-container{
+        width: 100%;
+      }
+      
+      .skills{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+        color: #66fcf1;
+      }
+      
+      .card{
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        padding-top: 20px;
+        box-shadow: 0px 0px 7px rgb(102, 252, 241);
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .card .image{
+        padding-bottom: 10px;
+      }
+      .card p{
+        text-align: center;
+        color: white;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+      
+      #Certificates{
+        width: 100%;
+        height: 1050px;
+        background-color: #242c36;
+      }
+      .certificate{
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        color: #66fcf1;
+      }
+      
+      .cert-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .cert-image{
+        width: 200px;
+      }
+      
+      .main-cert-container{
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      
+      .main-cert-container h1{
+      color: white;
+      font-size: 18px;
+      }
+      
+      .main-cert-container p{
+        color: white;
+      }
+      
+      #Contact{
+        background-color: #1f2833;
+        width: 100%;
+        height: 100px;
+      }
+      
+      .socmed-image{
+        width: 30px;
+      }
+      .contact-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 10px;
+      }
+      
+      .contact{
+        text-align: center;
+        font-size: 13px;
+        color: white;
+      }
+
+      .menu-items{
+        display: none;
+       }
+    }
+
+
+    @media screen and (min-width: 360px){
+
+     .main-container .container .greetings{
+          font-size: 25px;
+        }
+
+        .main-container .container h1{
+          font-size: 30px;
+        }
+
+        .main-container .container .description{
+          font-size: 18px;
+          line-height: 23px;
+        }
+
+        .main-container .container .description span{
+          font-size: 20px;
+        }
+
+        .card-container .card p{
+          font-size: 17px;
+        }
+        .main-cert-container h1{
+          font-size: 20px;
+        }
+        .main-cert-container p{
+          font-size: 18px;
+        }
+
+        #Certificates{
+          height: 1100px;
+        }
+
+        .cert-image{
+          width: 220px;
+        }
+
+    .contact{
+      color: white;
+    }
+
+    .menu-items{
+      display: none;
+     }
+       }
+
+
+       @media screen and (min-width: 480px){
+
+        .main-container .container .greetings{
+          font-size: 30px;
+        }
+
+        .main-container .container h1{
+          font-size: 35px;
+
+        }
+
+        .main-container .container .description{
+          font-size: 23px;
+          line-height: 25px;
+        }
+
+        .main-container .container .description span{
+          font-size: 23px;
+        }
+
+        .button-hire{
+          font-size: 18px;
+        }
+
+        .about-me-pic{
+         display: none;
+        }
+
+        .text-description h1{
+          font-size: 30px;
+        }
+
+        .text-description p{
+          width: 450px;
+          font-size: 15px;
+        }
+
+        .skills{
+          font-size: 30px;
+        }
+
+        .card-container{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .card{
+          width: 300px;
+        }
+
+        #Certificates{
+          height: 1300px;
+        }
+
+        .certificate{
+          font-size: 30px;
+        }
+
+        .cert-image{
+          width: 250px;
+        }
+
+        .main-cert-container h1{
+          font-size: 25px;
+        }
+
+        .main-cert-container p{
+          width: 300px;
+
+        }
+
+        .menu-items{
+          display: none;
+         }
+
+       }
+
+       @media  screen and (min-width: 567px) {
+     .text-description {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       }
+      }
+     
+       @media screen and (min-width: 960px){
+
+        .main-container .container{
+          margin-left: 50px;
+          margin-right: 50px;
+        }
+
+        .about-container{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          margin-left: 100px;
+          margin-right: 100px;
+        }
+        .about-me-pic{
+          display: inline-block;
+          width: 200px;
+          margin-top: 20px;
+          border-radius: 20px;
+          box-shadow: 0px 0px 10px rgb(102, 252, 241);
+       
+        }
+
+        .card-container{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+        }
+
+        #Skills{
+          height: 500px;
+        }
+
+        .card-container .card{
+          width: 280px;
+        
+        }
+
+        #Certificates{
+          height: 800px;
+        }
+
+        .cert-container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+       
+        }
+
+        .cert-container .main-cert-container p{
+          width: 100%;
+        }
+ 
+
+       }
+
+       @media screen and (min-width: 1366px){
+
+        .navbar{
+          display: flex;
+          justify-content: space-between;
+          height: 70px;
+        }
+
+        .logo p{
+          margin-left: 50px;
+        }
+
+
+        .menu-items {
+          display: flex;
+       
+        }
+
+        .menu-items ul{
+          display: flex;
+          justify-content: space-between;
+          
+        }
+
+        .menu-items ul li{
+          margin-right: 50px;
+          list-style-type: none
+
+        }
+
+        .menu-items ul li a{
+          color: white;
+          text-decoration: none;
+        }
+
+        .menu-items ul li a:hover{
+          color: #66fcf1;
+        }
+
+        .main-container{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .container{
+          width: 700px;
+          text-align: left;
+        }
+
+
+        .my-pic{
+          display: inline-block;
+          width: 400px;
+          border-radius: 50%;
+          box-shadow: 2px 2px 10px rgb(102, 252, 241);
+        }
+
+        #About{
+          height: 700px;
+        }
+
+        .about-container{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          height: 100%;
+        
+        }
+
+        .about-me-pic{
+          width: 300px;
+        }
+
+        .text-description h1{
+          font-size: 35px;
+        }
+
+        .text-description p{
+          font-size: 18px;
+          line-height: 30px;
+        }
+        
+        .skills{
+          font-size: 35px;
+          margin-left: 100px;
+          padding-top: 30px;
+        }
+
+        .card-container{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          width: 100%;
+        }
+
+        .certificate{
+          font-size: 35px;
+          margin-left: 100px;
+          padding-top: 30px;
+        }
+        }
+
+        @media screen and (min-width: 1002px){
+
+        .about-container{
+          justify-content: space-around;
+        }
+
+        .card-container{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+        }
+
+        }
+       
+     
+        @media screen and (min-width: 1920px) {
+          .navbar{
+          height: 50px;
+          }
+
+         .logo .header{
+            font-size: 30px;
+          }
+
+          .menu-items ul li a{
+            font-size: 15px;
+          }
+
+          .main-container{
+            justify-content: space-around;
+          }
+
+          .container{
+            width: 800px;
+          }
+
+          .main-container .container .greetings{
+            font-size: 30px;
+
+          }
+
+          .main-container .container h1{
+            font-size: 50px;
+          }
+
+          .main-container .container .description{
+            font-size: 23px;
+            line-height: 35px;
+          }
+
+          .main-container .container .description span{
+            font-size: 25px;
+          }
+
+          .my-pic{
+            width: 400px;
+          }
+
+          .button-hire{
+            font-size: 20px;
+          }
+
+          #About{
+            height: 800px;
+          }
+
+          .about-container{
+            justify-content: space-evenly;
+
+          }
+
+          .about-me-pic{
+            width: 350px;
+          }
+         
+
+          .text-description h1{
+            font-size: 40px;
+          }
+
+     
+        
+          .cert-container{
+            width: 900px;
+            margin: 0 auto;
+          }
+       
+        }
+
+     
+   
